@@ -1,0 +1,181 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem Open Sans;
+    margin: 0;
+    background-color: #fafafa ;
+}
+ h2, h3, ul, p, ol, figure{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+}
+header p{
+    text-align: center;
+    color: #737373; 
+    font-size: 2rem;
+    margin: 3rem 0rem 5rem 0rem;
+}
+section{
+    background-color:  #ffffff;
+    margin: 0 auto;
+    display: block;
+    padding: 2rem;
+    max-width: 37rem;
+    border: 0.1rem solid #a2a5ac ;
+    
+}
+.connecter{
+    background-color: #3897f0 ;
+    display: block;
+    width: 30rem;
+    height: 3rem;
+    color: white;
+    border: transparent;
+    margin-left: 1.4rem;
+    margin-top: 1rem;
+    
+}
+h2{
+    display: block;
+    position: relative;
+    width: 6rem;
+    left: 13rem;
+    bottom: 3.5rem;
+    padding-top: 2rem;
+    background-color: white;
+    margin-bottom: 0rem;
+}
+p{
+    margin-top: 2rem;
+}
+
+.logo{
+    display: block;
+    position: relative;
+    top: 2.7rem;
+    left: 2.7rem;
+    width: 2rem;
+}
+.insta{
+    display: block;
+    margin: auto;
+    margin-bottom: 4rem;
+    padding: 0rem;
+    width: 70%;
+}
+input{
+    background-color: #fafafa;
+    border: 0.1rem solid #a2a5ac ;
+    margin: 0.5rem auto;
+    display: block;
+    align-items: center;
+    width: 30rem;
+    height: 3rem;
+    padding-left : 0.5rem ;     
+}
+div{
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    padding: 0rem 0rem 2rem 0rem;  
+
+}
+a{
+    text-decoration: none;
+   
+}
+footer div h3 {
+    background-color:  #ffffff;
+    margin: 0 auto;
+    display: block;
+    padding: 2rem 0rem 6rem 0rem;
+    max-width: 37rem;
+    height: 2rem;
+    border: 0.1rem solid #a2a5ac ;
+    margin: auto ;
+    margin-top: 1rem;
+    
+}
+footer h4 {
+    text-align: center;
+    margin: 2rem 0rem 2rem  0rem;
+    font-size: 2rem;
+}
+section:nth-child(2){
+    width: 37rem;
+    border: transparent;
+    background-color: #fafafa;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+div a {
+    color: rgb(35, 35, 155);
+    font-size:2rem;
+    padding: 0rem 0rem 0.1rem;
+}
+a:nth-child(1){
+    color: rgb(129, 129, 248);
+    
+}
+.div{
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    
+}
+
+.photo{
+    width: 15rem;
+    display: inline-block;
+    margin-left: 1rem;
+}
+.success{
+    background-color: green;
+    color: white;
+    width: 30rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.warning{
+    color: red;
+    width: 30rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+@media screen and (max-width: 37em){
+    
+    header h1{
+        font-size: 1rem;
+        margin: 3rem 3rem 3rem 2rem;
+        
+    }
+    section, .div ,input , .warning, .connecter {
+        display: block;
+        width: 100%; 
+        margin: auto;
+        
+    }
+    
+    
+    input{
+        margin-bottom: 0.5rem;
+    }
+    
+    
+    
+    footer{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    
+   
+    }

@@ -1,0 +1,150 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem Open Sans;
+    margin: 0;
+    background-color: #fafafa ;
+    padding: 0rem;
+}
+ h2, h3, ul, p, ol, figure{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+}
+header p{
+    text-align: center;
+    color: #737373; 
+    font-size: 2rem;
+    margin: 3rem 0rem 5rem 0rem;
+}
+.insta{
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.go {
+    background-color:  #ffffff;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    max-width: 37rem;
+    border: 0.1rem solid #a2a5ac ;
+    margin-bottom: 1rem;
+    width: 30rem;    
+    font-size: 2.2rem;
+}
+h2{
+    text-align: center;
+    background-color: black;
+    width: 100rem;
+    margin: auto;
+    color: rgb(173, 173, 173);
+    font-size: 2rem;
+    padding: 0rem 0rem 1.2rem 0rem;
+    float: initial;
+}
+.test{
+    position: relative;
+    display: block;
+    margin:  auto;
+    right: 11rem ;
+    top: 2.5rem;
+    width: 2.5rem;
+}
+
+
+.gal  {
+    display: block;
+    margin: auto;
+    border: 0.1rem solid ;
+    width: 100rem;
+    list-style-type: none;
+    padding: 0rem ;
+}
+.gal img {
+    width: calc(100% / 3 );
+    padding: 0rem;
+    display: block;
+    margin: 0rem;
+    float: left;
+    
+}
+
+
+.gal_1 img{
+    display: inline-block;
+    border: 0.1rem solid ;
+    width: calc(100% / 3);
+    padding: 0rem auto;
+    margin: 0rem; 
+}
+
+.gal_2 img{
+    display: inline-block;
+    border: 0.1rem solid ;
+    width: calc(100% / 3);
+    padding-bottom: 0rem auto;
+    margin: 0rem;
+    
+}
+
+
+ h3  {
+    text-align: center;
+    width: 37rem;
+    margin: 85rem 0rem 2rem  0rem;
+    font-size: 1.5rem;
+}
+
+.footer{
+    width: 37rem;
+    border: transparent;
+    background-color: #fafafa;
+    display: block;
+    margin: auto;
+    
+    
+}
+.photo{
+    width: 15rem;
+    display: inline-block;
+    margin-left: 2rem;
+}
+.mail{
+    color: green;
+}
+
+@media screen and (max-width: 100rem){
+    
+    header h1{
+        font-size: 1rem;
+        width: 100%;
+    }
+    h2{
+        text-align: center;
+        width: 100%;
+    }
+    .gal, .div ,input {
+        display: block;
+        width: 100%; 
+        margin: auto;
+        
+    }
+    
+    
+    
+    footer{
+        font-size: 1.5rem;
+        width: 100%;
+        display: block;
+        margin-top: 0rem;
+    }
+    
+   
+    }
